@@ -2,6 +2,8 @@
 
 This method is based on dense trajectories and multiple instance learning. See more details in the [paper](https://ieeexplore.ieee.org/document/8734888).
 
+**NOTE:** This code is optimized to function as baseline for the [No-Audio Speech Detection](https://multimediaeval.github.io/editions/2020/) task at the MediaEval workshop. Changes would be needed to adapt it for other tasks or projects. Nevertheless, the functionality remains.
+
 [Dense trajectories](https://ieeexplore.ieee.org/abstract/document/5995407), proposed by Wang et. al., is a descriptor based on motion boundary histograms, which is robust to camera motion. This descriptor has showned to be promising and it is widely used for human activity recognition.
 
 The original code for the dense trajectories can be downloaded [here](https://lear.inrialpes.fr/people/wang/dense_trajectories). We include a modified code in this repository which stores the trajectories as separated files for computation efficiency. 
