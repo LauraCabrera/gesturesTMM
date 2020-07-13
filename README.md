@@ -19,3 +19,9 @@ Currently, the code uses an embedded MATLAB optimizer. Nonehteless, better resul
 ### parameter optimization
 
 The code provides default parameters for the MILES algorithm. These are not yet tuned.
+
+## Usage
+
+1. **Extract Dense Trajectories**  A python wrapper is included (*extract_DT_from_sequence.py*) to extract the dense trajectories for the video. This file is optimized for the videos provided for the [No-Audio Speech Detection](https://multimediaeval.github.io/editions/2020/) task at the MediaEval workshop, but can be used with any other video. We do recommend to separate the video into participants for optimal memory use.
+
+2. **MILES training and testing** Once the Dense Trajectories are extracted and stored, *the run_baseline_video.m* script can be run. This would randomly divide the training and test set, would train the MILES classifier and test it. Since the PRTools are only available in MATLAB so far, this solution is not available for Python yet. A Python version of the PRTools is ongoing.
