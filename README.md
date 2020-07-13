@@ -8,7 +8,7 @@ This method is based on dense trajectories and multiple instance learning. See m
 
 The original code for the dense trajectories can be downloaded [here](https://lear.inrialpes.fr/people/wang/dense_trajectories). We include a modified code in this repository which stores the trajectories as separated files for computation efficiency. 
 
-The trajectories are later used by a multiples instance approach called Multiple-Instance Learning via Embedded Instance Selection or [MILES](https://ieeexplore.ieee.org/document/1717454). This method gives every instance, or trajectory in our case, a weight of contribution towards classifying a given bag as a positive (speaking segment).
+The trajectories are later used by a multiples instance approach called Multiple-Instance Learning via Embedded Instance Selection or [MILES](https://ieeexplore.ieee.org/document/1717454). This method gives every instance, or trajectory in our case, a weight of contribution towards classifying a given bag as a positive (gesture or speaking segment).
 
 ### MILES implementation with PRTOOLS
 
