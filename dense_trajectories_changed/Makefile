@@ -1,11 +1,11 @@
 # set the binaries that have to be built
 TARGETS := DenseTrack Video
 
-INSTALL_DIR:= /tudelft.net/staff-bulk/ewi/insy/VisionLab/lcabrera/code_dependencies
+INSTALL_DIR:= /YOUR_DIR/code_dependencies
 
 export LD_LIBRARY_PATH="$INSTALL_DIR/build/lib:$LD_LIBRARY_PATH"
 
-export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/tudelft.net/staff-bulk/ewi/insy/VisionLab/lcabrera/code_dependencies/build/lib/pkgconfig
+export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/YOUR_DIR/code_dependencies/build/lib/pkgconfig
 
 # set the build configuration set 
 BUILD := release
